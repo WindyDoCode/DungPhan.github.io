@@ -1,0 +1,38 @@
+@media screen and (max-width: 992px) {
+  #nav-title {
+    display: none;
+  }
+  #nav-article {
+    display: none;
+  }
+  .item-title {
+    padding: 0px 6%;
+  }
+  #job-info {
+    grid-template-columns: 40% 40%;
+  }
+  #experience {
+    order: 1;
+  }
+  #education {
+    order: 4;
+  }
+  #active {
+    order: 2;
+  }
+  #favorite {
+    order: 6;
+  }
+  #language {
+    order: 5;
+  }
+  #skill {
+    order: 3;
+  }
+  .certificate-box {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 40%;
+    row-gap: 3%;
+  }
+}
