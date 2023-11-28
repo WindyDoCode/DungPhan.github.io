@@ -3,6 +3,9 @@
   padding: 0px;
   font-family: sans-serif;
 }
+ul {
+  padding-left: 0px;
+}
 .hidden {
   display: none;
 }
